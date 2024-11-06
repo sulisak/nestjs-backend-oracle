@@ -128,7 +128,7 @@ export class AppController {
       return { message: 'Data has been updated' };
     } catch (error) {
       console.error('Error connecting to Oracle:', error);
-      return { message: 'Error updating data' };
+      return { message: 'Error updating data ORACLEASM_TABLE' };
     }
   }
 }
